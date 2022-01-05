@@ -2,7 +2,7 @@
 
 **NFR** => Non-functional requirements (Technologies: database, framework, language)
 
-**BR** => Bussiness rules (Exception rules)
+**BR** => Business rules (Exception rules)
 
 # Car registration
 
@@ -12,16 +12,16 @@
 
 **BR** => 
 - Must not be able to register a new car with an existing license plate
-- The car must be registered "disponible" by default
+- The car must be registered "available" by default
 *The user responsible for registration must be an administrator
 
 # Car listing
 
 **FR**
 - Should be able to list all registered cars
-- Should be possible to list all disponible cars by category name
-- Should be possible to list all disponible cars by brand
-- Should be possible to list all disponible cars by name
+- Should be possible to list all available cars by category name
+- Should be possible to list all available cars by brand
+- Should be possible to list all available cars by name
 
 
 **BR**
@@ -43,7 +43,7 @@
 
 **FR**
 - Should be possible to register a new car image
-- Shoul be possible to list all cars
+- Should be possible to list all cars
 
 **NFR**
 - Utilize multer for files upload 
@@ -60,3 +60,4 @@
 **BR**
 - The rent must have a minimum duration of 24 hours
 - Must not be possible to register a new rent if already exist one scheduled for the same user
+- The user must be logged in
