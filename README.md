@@ -61,3 +61,26 @@
 - The rent must have a minimum duration of 24 hours
 - Must not be possible to register a new rent if already exist one scheduled for the same user
 - The user must be logged in
+- The car status must be changed to unavailable
+
+# Car Devolution
+
+**FR**
+- Should be possible to return a car 
+
+**BR**
+- User must be logged in
+- If the car is returned in less than 24 hours, one day will be charged
+- After the return, the car must be liberated to another rental
+- After the return, the user must be liberated to another rental
+- After the return, the total amount rental must be liberated
+- If the return time is after the expected return time, it should be charged a fine proportional to the days of delay.
+- If there is a fine, it should be added to the rent.
+
+# Rentals listing for users 
+
+**FR**
+- Must be possible to search all rentals for the users
+
+**BR**
+- User must be logged in
