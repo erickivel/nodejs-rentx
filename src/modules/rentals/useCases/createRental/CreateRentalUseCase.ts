@@ -19,7 +19,7 @@ class CreateRentalUseCase {
     constructor(
         @inject("RentalsRepository")
         private rentalsRepository: IRentalsRepository,
-        @inject("DateProvider")
+        @inject("DayjsProvider")
         private dateProvider: IDateProvider,
         @inject("CarsRepository")
         private carsRepository: ICarsRepository
