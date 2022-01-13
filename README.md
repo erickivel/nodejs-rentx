@@ -84,3 +84,14 @@
 
 **BR**
 - User must be logged in
+
+# Password Recovery
+
+**FR**
+- Must be possible to recover the password by passing the email address
+- The user must receive an email with step by step for password recovery
+- The user should be able to insert a new password
+
+**BR**
+- The user must inform your new password
+- The link sent to recovery must expire in 3 hours
