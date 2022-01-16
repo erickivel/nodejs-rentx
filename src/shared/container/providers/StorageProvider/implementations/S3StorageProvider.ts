@@ -1,5 +1,5 @@
 import upload from "@config/upload";
-import { S3, } from "aws-sdk";
+import { S3 } from "aws-sdk";
 import { resolve } from "path";
 import fs from "fs";
 import mime from "mime";

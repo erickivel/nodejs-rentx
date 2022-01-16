@@ -22,8 +22,6 @@ class ResetPasswordUserUseCase {
     ) { }
 
     async execute({ token, password }: IRequest): Promise<void> {
-        console.log(token);
-
         const userToken = await this.usersTokensRepository.findByRefreshToken(token);
 
         if (!userToken) {
