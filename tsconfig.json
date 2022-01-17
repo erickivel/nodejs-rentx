@@ -4,6 +4,7 @@
     "module": "commonjs",
     "rootDir": "./",
     "baseUrl": "./src",
+    "outDir": "./dist",
     "paths": {
       "@modules/*": [
         "modules/*"
@@ -21,7 +22,6 @@
         "utils/*"
       ]
     },
-    "outDir": "./dist",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
