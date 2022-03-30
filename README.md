@@ -1,3 +1,5 @@
+<img src="./support-files/tabela-api-cars-rent.png" alt="project-overview"/>
+
 **FR** => Functional requirements
 
 **NFR** => Non-functional requirements (Technologies: database, framework, language)
